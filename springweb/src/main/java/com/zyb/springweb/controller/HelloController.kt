@@ -1,6 +1,6 @@
 package com.zyb.springweb.controller
 
-import com.zyb.springweb.Bean.User
+import com.zyb.springweb.bean.User
 import com.zyb.springweb.mapper.UserMapper
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.web.bind.annotation.GetMapping

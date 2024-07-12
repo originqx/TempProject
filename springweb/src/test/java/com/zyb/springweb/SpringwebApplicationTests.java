@@ -1,6 +1,6 @@
 package com.zyb.springweb;
 
-import com.zyb.springweb.Bean.User;
+import com.zyb.springweb.bean.User;
 import com.zyb.springweb.mapper.UserMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;

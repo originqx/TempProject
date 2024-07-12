@@ -23,15 +23,15 @@
         age=#{age}
         where userId=#{name}
     </update>
-    <select id="getUserInfoById" resultType="com.zyb.springweb.Bean.User">
+    <select id="getUserInfoById" resultType="com.zyb.springweb.bean.User">
         select * from user where userId = #{userId}
     </select>
 
-    <select id="getUserInfoByName" resultType="com.zyb.springweb.Bean.User">
+    <select id="getUserInfoByName" resultType="com.zyb.springweb.bean.User">
         select * from user where name = #{name}
     </select>
 
-    <select id="getAllUser" resultType="com.zyb.springweb.Bean.User">
+    <select id="getAllUser" resultType="com.zyb.springweb.bean.User">
         select * from user
     </select>
 </mapper>

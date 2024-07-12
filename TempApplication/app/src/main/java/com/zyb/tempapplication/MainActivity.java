@@ -12,6 +12,10 @@ import androidx.core.view.WindowInsetsCompat;
 import com.zyb.tempapplication.bean.User;
 import com.zyb.tempapplication.network.NetService;
 import com.zyb.tempapplication.network.RetrofitApi;
+import com.zyb.tempapplication.test.ApplyScopeTest;
+import com.zyb.tempapplication.test.TestScope;
+
+import java.lang.invoke.VarHandle;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
@@ -68,14 +72,8 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        TestScope testScope = new TestScope();
 //
     }
 
-    @Override
-    protected void onDestroy() {
-        super.onDestroy();
-        if (subscribe != null) {
-            subscribe.dispose();
-        }
-    }
 }

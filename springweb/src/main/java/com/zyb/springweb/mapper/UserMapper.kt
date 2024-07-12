@@ -1,6 +1,6 @@
 package com.zyb.springweb.mapper
 
-import com.zyb.springweb.Bean.User
+import com.zyb.springweb.bean.User
 import org.apache.ibatis.annotations.Mapper
 
 @Mapper
