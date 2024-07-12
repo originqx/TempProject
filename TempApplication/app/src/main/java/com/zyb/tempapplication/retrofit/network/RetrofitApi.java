@@ -1,6 +1,6 @@
-package com.zyb.tempapplication.network;
+package com.zyb.tempapplication.retrofit.network;
 
-import com.zyb.tempapplication.bean.User;
+import com.zyb.tempapplication.retrofit.bean.User;
 
 
 import io.reactivex.Observable;

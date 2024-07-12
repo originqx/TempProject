@@ -21,11 +21,13 @@ class HelloController {
 
     @GetMapping("/zhangshan")
     fun getZhangShan(): User {
-        return User(1,"zhangshan", 23)
+        val userInfoByName = usermapper?.getUserInfoByName("zhangshan")
+        return userInfoByName?: User()
     }
 
     @GetMapping("/lisi")
     fun getLisi(): User {
-        return User(2,"lisi", 23)
+        val userInfoByName = usermapper?.getUserInfoByName("lisi")
+        return userInfoByName?: User()
     }
 }

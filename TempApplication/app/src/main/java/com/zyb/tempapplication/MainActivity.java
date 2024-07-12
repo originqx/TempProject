@@ -9,13 +9,9 @@ import androidx.core.graphics.Insets;
 import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 
-import com.zyb.tempapplication.bean.User;
-import com.zyb.tempapplication.network.NetService;
-import com.zyb.tempapplication.network.RetrofitApi;
-import com.zyb.tempapplication.test.ApplyScopeTest;
-import com.zyb.tempapplication.test.TestScope;
-
-import java.lang.invoke.VarHandle;
+import com.zyb.tempapplication.retrofit.bean.User;
+import com.zyb.tempapplication.retrofit.network.NetService;
+import com.zyb.tempapplication.retrofit.network.RetrofitApi;
 
 import io.reactivex.Observer;
 import io.reactivex.disposables.Disposable;
@@ -71,9 +67,6 @@ public class MainActivity extends AppCompatActivity {
                 Log.i("MainActivity", "onComplete---------------------");
             }
         });
-
-        TestScope testScope = new TestScope();
-//
     }
 
 }
