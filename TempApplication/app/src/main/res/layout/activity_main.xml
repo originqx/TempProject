@@ -7,13 +7,73 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            android:orientation="vertical">
+
+            <com.zyb.tempapplication.customview.CustomViewGroup
+                android:id="@+id/customViewGroup"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+
+                <com.zyb.tempapplication.customview.CSimpleCustomView
+                    android:id="@+id/simpleView"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp" />
+
+
+                <Button
+                    android:id="@+id/network"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="进行网络请求" />
+            </com.zyb.tempapplication.customview.CustomViewGroup>
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/come_to_a_fargment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进入AFragment" />
+
+        <Button
+            android:id="@+id/come_to_b_fargment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进入BFragment" />
+
+        <Button
+            android:id="@+id/come_to_activity_relative"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="进入activity_relative" />
+        <Button
+            android:id="@+id/come_to_activity_constain"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="come_to_activity_constain" />
+
+        <Button
+            android:id="@+id/come_to_activity_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="come_to_activity_linear" />
+
+        <androidx.fragment.app.FragmentContainerView
+            android:id="@+id/fragment_container_view"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+
+    </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>

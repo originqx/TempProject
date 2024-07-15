@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--    layout_alignParentLeft: 左对齐-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="120dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:background="#ff2328"
+        android:text="1" />
+    <!--    layout_alignParentRight:右对齐-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:background="#aaa72d"
+        android:text="2" />
+    <!--    layout_alignParentTop: 顶部对齐-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:background="#00aa7d"
+        android:text="3" />
+    <!--    layout_alignParentBottom: 底部对齐-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:background="#2eaa0f"
+        android:text="4" />
+    <!--    android:layout_centerHorizontal: 水平居中-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerHorizontal="true"
+        android:background="#aa7fa9"
+        android:text="5" />
+    <!--    andriod:layout_centerVertical: 垂直居中-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        android:background="#77b8ff"
+        android:text="6" />
+    <!--    android:layout_centerInParent: 中间位置-->
+    <androidx.appcompat.widget.AppCompatButton
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_centerInParent="true"
+        android:background="#cc58be"
+        android:text="7" />
+</RelativeLayout>

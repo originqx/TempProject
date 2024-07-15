@@ -1,3 +1,11 @@
 <resources>
-    <string name="app_name">TempApplication</string>
+    <string name="app_name">祁旋的APP</string>
+    <string name="userName">账号</string>
+    <string name="password">密码</string>
+    <string name="fragment_a_submit">Fragment_A_submit</string>
+    <string name="fragment_b_submit">fragment_b_submit</string>
+    <string name="title_activity_relatived_actiivty">RelativedActiivty</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

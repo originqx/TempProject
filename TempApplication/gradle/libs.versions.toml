@@ -12,6 +12,10 @@ rxjava2 = "2.2.21"
 utilcodex = "1.31.1"
 kotlin = "2.0.0"
 coreKtx = "1.10.1"
+lifecycleLivedataKtx = "2.8.3"
+lifecycleViewmodelKtx = "2.8.3"
+navigationFragmentKtx = "2.6.0"
+navigationUiKtx = "2.6.0"
 
 [libraries]
 junit = { group = "junit", name = "junit", version.ref = "junit" }
@@ -27,6 +31,10 @@ retrofit-rxjava = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", 
 rxjava2 = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava2" }
 utilcodex = { group = "com.blankj", name = "utilcodex", version.ref = "utilcodex" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }
+lifecycle-viewmodel-ktx = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtx" }
+navigation-fragment-ktx = { group = "androidx.navigation", name = "navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+navigation-ui-ktx = { group = "androidx.navigation", name = "navigation-ui-ktx", version.ref = "navigationUiKtx" }
 
 
 

@@ -31,6 +31,9 @@ android {
     kotlinOptions {
         jvmTarget = '17'
     }
+    buildFeatures {
+        viewBinding true
+    }
 }
 
 dependencies {
@@ -44,6 +47,10 @@ dependencies {
     implementation libs.retrofit.rxjava
     implementation libs.rxjava2
     implementation libs.core.ktx
+    implementation libs.lifecycle.livedata.ktx
+    implementation libs.lifecycle.viewmodel.ktx
+    implementation libs.navigation.fragment.ktx
+    implementation libs.navigation.ui.ktx
     compileOnly libs.utilcodex
     testImplementation libs.junit
     androidTestImplementation libs.ext.junit
