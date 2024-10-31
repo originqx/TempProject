@@ -1,0 +1,4 @@
+language = Objective-C
+headers = MyStringUtils.h
+headerFilter = MyStringUtils.h
+compilerOpts = -I${projectDir}/src/nativeInterop/cinterop/header

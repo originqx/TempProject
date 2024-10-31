@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:IOSDemoApp.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+   <Group
+      location = "group:KmmCode"
+      name = "KmmCode">
+      <FileRef
+         location = "absolute:/Users/zyb/Project/kmmlib/kmmNetwork/src/commonMain">
+      </FileRef>
+      <FileRef
+         location = "absolute:/Users/zyb/Project/kmmlib/kmmNetwork/src/iosMain">
+      </FileRef>
+   </Group>
+</Workspace>

@@ -9,6 +9,8 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
+import com.zyb.kmmlib.LogUtils
+import com.zyb.kmmlib.NetworkHelper
 import com.zyb.tempapplication.fragment.FragmentA
 import com.zyb.tempapplication.fragment.FragmentB
 import com.zyb.tempapplication.layout.ConstrainActivity
@@ -147,10 +149,22 @@ class MainActivity : AppCompatActivity() {
                 view
             )
         }
+
+        (findViewById<Button>(R.id.kmmnetwork)!!).setOnClickListener { view: View ->
+            kmmnetwork(
+                view
+            )
+        }
     }
 
     private fun liftCycle(view: View) {
         start(LifeCycleActivityA::class.java)
+    }
+
+    private fun kmmnetwork(view: View) {
+        NetworkHelper.getWithNative("/zyb/zhangshan")
+//        NetworkHelper.getWithKtor("/zyb/zhangshan")
+        LogUtils().log("KMmLog", "哈哈哈哈哈哈")
     }
 
     override fun onDestroy() {

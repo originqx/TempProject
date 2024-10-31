@@ -84,6 +84,13 @@
             android:onClick="liftCycle"
             android:text="liftCycle" />
 
+        <Button
+            android:id="@+id/kmmnetwork"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="kmmnetwork"
+            android:text="kmmnetwork" />
+
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/fragment_container_view"
             android:layout_width="match_parent"

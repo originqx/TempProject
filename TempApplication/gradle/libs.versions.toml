@@ -1,5 +1,6 @@
 [versions]
 agp = "8.5.0"
+codelocatorCore = "2.0.4"
 junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
@@ -9,6 +10,8 @@ activity = "1.9.0"
 constraintlayout = "2.1.4"
 retrofit = "2.11.0"
 rxjava2 = "2.2.21"
+kmmlog = "5.0.2"
+kmmnetwork = "5.0.2"
 utilcodex = "1.31.1"
 kotlin = "2.0.0"
 coreKtx = "1.10.1"
@@ -18,6 +21,7 @@ navigationFragmentKtx = "2.6.0"
 navigationUiKtx = "2.6.0"
 
 [libraries]
+codelocator-core = { module = "com.bytedance.tools.codelocator:codelocator-core", version.ref = "codelocatorCore" }
 junit = { group = "junit", name = "junit", version.ref = "junit" }
 ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
@@ -29,6 +33,8 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 retrofit-gson = { group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofit" }
 retrofit-rxjava = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofit" }
 rxjava2 = { group = "io.reactivex.rxjava2", name = "rxjava", version.ref = "rxjava2" }
+kmm-log-android = { module = "com.zyb:kmmLog-android", version.ref = "kmmlog" }
+kmm-network-android = { module = "com.zyb:kmmNetwork-android", version.ref = "kmmnetwork" }
 utilcodex = { group = "com.blankj", name = "utilcodex", version.ref = "utilcodex" }
 core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
 lifecycle-livedata-ktx = { group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "lifecycleLivedataKtx" }

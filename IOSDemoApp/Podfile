@@ -1,0 +1,12 @@
+platform :ios,"12.0"
+ 
+target 'IOSDemoApp' do
+  project 'IOSDemoApp'
+  use_frameworks!
+ 
+  pod 'AFNetworking', '~> 4.0'
+  # pod 'KMMLog', :path => '../KMPLogUseGrovvy/KMMLog'
+  pod 'MyCocoaPod', :path => '/Users/zyb/Project/kmmlib/kmmNetwork/MyCocoaPod.podspec'
+ 
+ 
+end
