@@ -5,7 +5,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 
 object RetrofitClient {
     private val retrofit = Retrofit.Builder()
-        .baseUrl("http://10.241.41.192:8080") // 使用任意基础 URL，将被请求中的动态 URL 覆盖
+        .baseUrl("http://1.12.242.10:8099") // 使用任意基础 URL，将被请求中的动态 URL 覆盖
         .addConverterFactory(GsonConverterFactory.create())
         .build()
 

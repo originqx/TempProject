@@ -16,7 +16,7 @@ import kotlin.jvm.JvmStatic
 
 object NetworkHelper {
 
-    const val BASE_URL = "http://10.241.41.192:8080"
+    const val BASE_URL = "http://1.12.242.10:8099"
     @JvmStatic
     fun getWithNative(url: String) {
         NetworkNative.get(url)
